@@ -18,7 +18,7 @@ const sem1 = () => {
         <br/>
         <a href="sem1/langlab">Language Lab</a>
         <br/>
-        <a href="sem1/maths">Mathematics</a>
+        <a href="sem1/maths1">Mathematics</a>
         <br/>
         <a href="sem1/pcomm">Professional Communication</a>
         <br/>

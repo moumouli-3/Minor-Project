@@ -10,6 +10,8 @@ const bio = () => {
         <br/>
         <a href="/sem1/bio/topicwisequestions">Topic Wise Questions</a>
         <br/>
+        <a href="/sem1/bio/topicwiseyoutubevideos">Topic Wise Youtube Videos</a>
+        <br/>
         <a href="/sem1/bio/previousyearpapers">Previous Year Papers</a>
         <br/>
 
@@ -17,4 +19,4 @@ const bio = () => {
   )
 }
 
-export default bio
+export default bio;
