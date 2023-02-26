@@ -1,6 +1,6 @@
 import React from 'react'
 
-const mathsytvideos = () => {
+const psytvideos = () => {
 
     const TestURL="https://www.youtube.com"
 
@@ -22,4 +22,4 @@ const mathsytvideos = () => {
     )
 }
 
-export default mathsytvideos
+export default psytvideos

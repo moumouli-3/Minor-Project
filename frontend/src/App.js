@@ -47,7 +47,59 @@ import Sem1 from './pages/sem1/sem1'
     import Maths1TopicQuestions from './pages/sem1/maths1/topicwisequestions/topicwisequestion'
     import Maths1TopicVideos from './pages/sem1/maths1/maths1ytvideos'
     import Maths1previousyearpapers from './pages/sem1/maths1/previousyearpapers/prevpapers'
+  
+  import Pcomm from './pages/sem1/pcomm/pcomm'
+    import PcommTopicNotes from './pages/sem1/pcomm/topicwisenotes/topicwisenotes'
+    import PcommTopicQuestions from './pages/sem1/pcomm/topicwisequestions/topicwisequestion'
+    import PcommTopicVideos from './pages/sem1/pcomm/pcommytvideos'
+    import Pcommpreviousyearpapers from './pages/sem1/pcomm/previousyearpapers/prevpapers'
+
+
+import Sem3 from './pages/sem3/sem3'
+  
+  import Dsa from './pages/sem3/dsa/dsa'
+    import DsaTopicNotes from './pages/sem3/dsa/topicwisenotes/topicwisenotes'
+    import DsaTopicQuestions from './pages/sem3/dsa/topicwisequestions/topicwisequestion'
+    import DsaTopicVideos from './pages/sem3/dsa/dsaytvideos'
+    import Dsapreviousyearpapers from './pages/sem3/dsa/previousyearpapers/prevpapers'
+  
+  import Dsalab from './pages/sem3/dsalab/dsalab'
+    import Dsalabassignment from './pages/sem3/dsalab/assignment/topicwisenotes'
     
+  import Dec from './pages/sem3/dec/dec'
+    import DecTopicNotes from './pages/sem3/dec/topicwisenotes/topicwisenotes'
+    import DecTopicQuestions from './pages/sem3/dec/topicwisequestions/topicwisequestion'
+    import DecTopicVideos from './pages/sem3/dec/decytvideos'
+    import Decpreviousyearpapers from './pages/sem3/dec/previousyearpapers/prevpapers'
+
+  import Dms from './pages/sem3/dms/dms'
+    import DmsTopicNotes from './pages/sem3/dms/topicwisenotes/topicwisenotes'
+    import DmsTopicQuestions from './pages/sem3/dms/topicwisequestions/topicwisequestion'
+    import DmsTopicVideos from './pages/sem3/dms/dmsytvideos'
+    import Dmspreviousyearpapers from './pages/sem3/dms/previousyearpapers/prevpapers'
+  
+  import Ee from './pages/sem3/ee/ee'
+    import EeTopicNotes from './pages/sem3/ee/topicwisenotes/topicwisenotes'
+    import EeTopicQuestions from './pages/sem3/ee/topicwisequestions/topicwisequestion'
+    import EeTopicVideos from './pages/sem3/ee/eeytvideos'
+    import Eepreviousyearpapers from './pages/sem3/ee/previousyearpapers/prevpapers'
+    
+  import Oop from './pages/sem3/oop/oop'
+    import OopTopicNotes from './pages/sem3/oop/topicwisenotes/topicwisenotes'
+    import OopTopicQuestions from './pages/sem3/oop/topicwisequestions/topicwisequestion'
+    import OopTopicVideos from './pages/sem3/oop/oopytvideos'
+    import Ooppreviousyearpapers from './pages/sem3/oop/previousyearpapers/prevpapers'
+  
+  import Ooplab from './pages/sem3/ooplab/ooplab'
+    import Ooplabassignment from './pages/sem3/ooplab/assignment/topicwisenotes'
+
+  import Ps from './pages/sem3/ps/ps'
+    import PsTopicNotes from './pages/sem3/ps/topicwisenotes/topicwisenotes'
+    import PsTopicQuestions from './pages/sem3/ps/topicwisequestions/topicwisequestion'
+    import PsTopicVideos from './pages/sem3/ps/psytvideos'
+    import Pspreviousyearpapers from './pages/sem3/ps/previousyearpapers/prevpapers'
+    import Pscalculators from './pages/sem3/ps/calculators/indep_events'
+  
 import Sem8 from './pages/sem8/sem8'
 
 
@@ -122,6 +174,79 @@ function App() {
                 <Route path="topicwisequestions" element={<Maths1TopicQuestions/>}></Route>
                 <Route path="topicwiseyoutubevideos" element={<Maths1TopicVideos/>}></Route>
                 <Route path="previousyearpapers" element={<Maths1previousyearpapers/>}></Route>
+              </Route>
+              
+              <Route path="pcomm">
+                <Route path="" element={<Pcomm/>}></Route>
+                <Route path="topicwisenotes" element={<PcommTopicNotes/>}></Route>
+                <Route path="topicwisequestions" element={<PcommTopicQuestions/>}></Route>
+                <Route path="topicwiseyoutubevideos" element={<PcommTopicVideos/>}></Route>
+                <Route path="previousyearpapers" element={<Pcommpreviousyearpapers/>}></Route>
+              </Route>
+
+            </Route>
+
+            <Route path="sem3">
+
+              <Route path="" element={<Sem3/>}></Route>
+
+              <Route path="dsa">
+                <Route path="" element={<Dsa/>}></Route>
+                <Route path="topicwisenotes" element={<DsaTopicNotes/>}></Route>
+                <Route path="topicwisequestions" element={<DsaTopicQuestions/>}></Route>
+                <Route path="topicwiseyoutubevideos" element={<DsaTopicVideos/>}></Route>
+                <Route path="previousyearpapers" element={<Dsapreviousyearpapers/>}></Route>
+              </Route>
+
+              <Route path="dsalab">
+                <Route path="" element={<Dsalab/>}></Route>
+                <Route path="assignments" element={<Dsalabassignment/>}></Route>
+              </Route>
+
+              <Route path="dec">
+                <Route path="" element={<Dec/>}></Route>
+                <Route path="topicwisenotes" element={<DecTopicNotes/>}></Route>
+                <Route path="topicwisequestions" element={<DecTopicQuestions/>}></Route>
+                <Route path="topicwiseyoutubevideos" element={<DecTopicVideos/>}></Route>
+                <Route path="previousyearpapers" element={<Decpreviousyearpapers/>}></Route>
+              </Route>
+
+              <Route path="dms">
+                <Route path="" element={<Dms/>}></Route>
+                <Route path="topicwisenotes" element={<DmsTopicNotes/>}></Route>
+                <Route path="topicwisequestions" element={<DmsTopicQuestions/>}></Route>
+                <Route path="topicwiseyoutubevideos" element={<DmsTopicVideos/>}></Route>
+                <Route path="previousyearpapers" element={<Dmspreviousyearpapers/>}></Route>
+              </Route>
+              
+              <Route path="ee">
+                <Route path="" element={<Ee/>}></Route>
+                <Route path="topicwisenotes" element={<EeTopicNotes/>}></Route>
+                <Route path="topicwisequestions" element={<EeTopicQuestions/>}></Route>
+                <Route path="topicwiseyoutubevideos" element={<EeTopicVideos/>}></Route>
+                <Route path="previousyearpapers" element={<Eepreviousyearpapers/>}></Route>
+              </Route>
+
+              <Route path="oop">
+                <Route path="" element={<Oop/>}></Route>
+                <Route path="topicwisenotes" element={<OopTopicNotes/>}></Route>
+                <Route path="topicwisequestions" element={<OopTopicQuestions/>}></Route>
+                <Route path="topicwiseyoutubevideos" element={<OopTopicVideos/>}></Route>
+                <Route path="previousyearpapers" element={<Ooppreviousyearpapers/>}></Route>
+              </Route>
+
+              <Route path="ooplab">
+                <Route path="" element={<Ooplab/>}></Route>
+                <Route path="assignments" element={<Ooplabassignment/>}></Route>
+              </Route>
+
+              <Route path="ps">
+                <Route path="" element={<Ps/>}></Route>
+                <Route path="topicwisenotes" element={<PsTopicNotes/>}></Route>
+                <Route path="topicwisequestions" element={<PsTopicQuestions/>}></Route>
+                <Route path="topicwiseyoutubevideos" element={<PsTopicVideos/>}></Route>
+                <Route path="previousyearpapers" element={<Pspreviousyearpapers/>}></Route>
+                <Route path="calculators" element={<Pscalculators/>}></Route>
               </Route>
 
             </Route>
