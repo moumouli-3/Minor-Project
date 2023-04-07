@@ -8,11 +8,7 @@ const maths1 = () => {
         </h1>
         <a href="/sem1/maths1/topicwisenotes">Topic Wise Notes</a>
         <br/>
-        <a href="/sem1/maths1/topicwisequestions">Topic Wise Questions</a>
-        <br/>
-        <a href="/sem1/maths1/topicwiseyoutubevideos">Topic Wise Youtube Videos</a>
-        <br/>
-        <a href="/sem1/maths1/previousyearpapers">Previous Year Papers</a>
+        <a href="https://youtu.be/eTp5wq-cSXY" target='_blank' rel='noreferrer'>Youtube Videos</a>
         <br/>
 
     </div>

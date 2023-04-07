@@ -1,21 +1,26 @@
 import React from 'react'
 
-import TestPdf from '../topicwisenotes/6th Sem Timetable.pdf'
-
 const topicwisenotes = () => {
   return (
     <div>
-        <a href={TestPdf} target="_blank">Topic 1</a>
-        <br/>
-        <a href={TestPdf} target="_blank">Topic 2</a>
-        <br/>
-        <a href={TestPdf} target="_blank">Topic 3</a>
-        <br/>
-        <a href={TestPdf} target="_blank">Topic 4</a>
-        <br/>
-        <a href={TestPdf} target="_blank">Topic 5</a>
-        <br/>
-        <a href={TestPdf} target="_blank">Topic 6</a>
+      <ol>
+        <li>
+          <a href="https://drive.google.com/file/d/1xDC7rJPLGtKHCfqpgyQX9N5Cwdh01o1I/view?usp=share_link" target="_blank" rel='noreferrer'>Fitting</a>
+          <br/>
+        </li>
+        <li>
+          <a href="https://drive.google.com/file/d/1J_nxUrtsmrZl4cGWrv-E2bIK2LagZ03b/view?usp=share_link" target="_blank" rel='noreferrer'>Sheetmetal</a>
+          <br/>
+        </li>
+        <li>
+          <a href="https://drive.google.com/file/d/199LsGeeFQCxfpv58PNrRQt8EZmFx9dxi/view?usp=share_link" target="_blank" rel='noreferrer'>Turing-Lathe Machine</a>
+          <br/>
+        </li>
+        <li>
+          <a href="https://drive.google.com/file/d/1Yb3gRKK3QBGT2lQK-1rX3hcem8-P7-OZ/view?usp=share_link" target="_blank" rel='noreferrer'>Welding</a>
+          <br/>
+        </li>
+      </ol>
     </div>
   )
 }

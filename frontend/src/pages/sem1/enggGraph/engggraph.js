@@ -8,8 +8,6 @@ const chemprac = () => {
         </h1>
         <a href="/sem1/engggraph/assignments">Assignments</a>
         <br/>
-        <a href="/sem1/enggraph/experimentyoutubevideos">Experiment Youtube Videos</a>
-        <br/>
 
     </div>
   )

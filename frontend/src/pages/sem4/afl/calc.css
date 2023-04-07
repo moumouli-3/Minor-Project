@@ -1,0 +1,11 @@
+*{
+margin: 0;
+padding: 0;
+}
+.state{
+    margin:2% 2% 0 0;
+    width: 15vw;
+    height: 15vh;
+    border-radius: 50%;
+    color:blueviolet
+}

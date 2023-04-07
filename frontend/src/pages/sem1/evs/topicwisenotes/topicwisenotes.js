@@ -1,21 +1,23 @@
 import React from 'react'
 
-import TestPdf from '../topicwisenotes/6th Sem Timetable.pdf'
 
 const topicwisenotes = () => {
   return (
     <div>
-        <a href={TestPdf} target="_blank">Topic 1</a>
-        <br/>
-        <a href={TestPdf} target="_blank">Topic 2</a>
-        <br/>
-        <a href={TestPdf} target="_blank">Topic 3</a>
-        <br/>
-        <a href={TestPdf} target="_blank">Topic 4</a>
-        <br/>
-        <a href={TestPdf} target="_blank">Topic 5</a>
-        <br/>
-        <a href={TestPdf} target="_blank">Topic 6</a>
+      <ol>
+        <li>
+          <a href="https://drive.google.com/file/d/1dtt-hsbPc5d8vfRkGjzNam8ui0R0rDDw/view?usp=share_link" target="_blank" rel='noreferrer'>Air Pollution</a>
+          <br/>
+        </li>
+        <li>
+          <a href="https://drive.google.com/file/d/1xLO_DWHebsFAW65Tn9m8XZez9_brtzsG/view?usp=share_link" target="_blank" rel='noreferrer'>Green Chemistry</a>
+          <br/>
+        </li>
+        <li>
+          <a href="https://drive.google.com/file/d/1HrbYR-gbXZ-Wn5G6uHCJ1o9Z3GQ3JlbE/view?usp=share_link" target="_blank" rel='noreferrer'>Sewage Treatment</a>
+          <br/>
+        </li>
+      </ol>
     </div>
   )
 }

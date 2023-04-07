@@ -1,21 +1,19 @@
 import React from 'react'
 
-import TestPdf from '../topicwisenotes/6th Sem Timetable.pdf'
 
 const topicwisenotes = () => {
   return (
     <div>
-        <a href={TestPdf} target="_blank">Topic 1</a>
-        <br/>
-        <a href={TestPdf} target="_blank">Topic 2</a>
-        <br/>
-        <a href={TestPdf} target="_blank">Topic 3</a>
-        <br/>
-        <a href={TestPdf} target="_blank">Topic 4</a>
-        <br/>
-        <a href={TestPdf} target="_blank">Topic 5</a>
-        <br/>
-        <a href={TestPdf} target="_blank">Topic 6</a>
+      <ol>
+        <li>
+          <a href="https://drive.google.com/file/d/1t6zO8Vh5jNw7Q3vbyVYSkqtdzt0NHXvn/view?usp=share_link" target="_blank" rel='noreferrer'>Full PPT</a>
+          <br/>
+        </li>
+        <li>
+          <a href="https://drive.google.com/file/d/1aGaaxfODs4New5rXX--F2PLrBkfCDSe9/view?usp=share_link" target="_blank" rel='noreferrer'>KIIT Inventory Notes</a>
+          <br/>
+        </li>
+      </ol>
     </div>
   )
 }

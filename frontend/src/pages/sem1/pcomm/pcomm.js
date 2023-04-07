@@ -8,13 +8,8 @@ const pcomm = () => {
         </h1>
         <a href="/sem1/pcomm/topicwisenotes">Topic Wise Notes</a>
         <br/>
-        <a href="/sem1/pcomm/topicwisequestions">Topic Wise Questions</a>
+        <a href="https://www.youtube.com/live/UudSwjqFdNM?feature=share" target='_blank' rel='noreferrer'>Youtube Videos</a>
         <br/>
-        <a href="/sem1/pcomm/topicwiseyoutubevideos">Topic Wise Youtube Videos</a>
-        <br/>
-        <a href="/sem1/pcomm/previousyearpapers">Previous Year Papers</a>
-        <br/>
-
     </div>
   )
 }
