@@ -138,11 +138,78 @@ import PdcTopicQuestions from './pages/sem4/pdc/topicwisequestions/topicwiseques
 import PdcTopicVideos from './pages/sem4/pdc/pdcytvideos'
 import Pdcpreviousyearpapers from './pages/sem4/pdc/previousyearpapers/prevpapers'
 
+import Sem5 from "./pages/sem5/sem5";
+
+
+ import Cn from "./pages/sem5/cn/cn";
+ import CnTopicNotes from './pages/sem5/Cn/topicwisenotes/topicwisenotes'
+ import CnTopicQuestions from './pages/sem5/Cn/topicwisequestions/topicwisequestion'
+ import Cnpreviousyearpapers from './pages/sem5/cn/previousyearpapers/prevpapers.'
+ import CnTopicVideos from './pages/sem5/cn/cnytvideos'
+
+ import Daa from "./pages/sem5/Daa/Daa";
+ import DaaTopicNotes from './pages/sem5/Daa/topicwisenotes/topicwisenotes'
+ import DaaTopicQuestions from './pages/sem5/Daa/topicwisequestions/topicwisequestion'
+ import Daapreviousyearpapers from './pages/sem5/Daa/previousyearpapers/prevpapers.'
+ import DaaTopicVideos from './pages/sem5/Daa/daaytvideos'
+ 
+ import Se from "./pages/sem5/Se/Se";
+ import SeTopicNotes from './pages/sem5/Se/topicwisenotes/topicwisenotes'
+ import SeTopicQuestions from './pages/sem5/Se/topicwisequestions/topicwisequestion'
+ import Sepreviousyearpapers from './pages/sem5/Se/previousyearpapers/prevpapers.'
+ import SeTopicVideos from './pages/sem5/Se/seytvideos'
+
+ import Hpc from './pages/sem5/hpc/hpc'
+ import HpctopicNotes from './pages/sem5/Hpc/topicwisenotes/topicwisenotes'
+ import HpcTopicQuestions from './pages/sem5/Se/topicwisequestions/topicwisequestion'
+ import Hpcpreviousyearpapers from './pages/sem5/Se/previousyearpapers/prevpapers.'
+ import HpcTopicVideos from './pages/sem5/hpc/hpcytvideos'
+ 
+  import Elective5 from "./pages/sem5/Elective/elective5"
+
+ import Ai from './pages/sem5/Elective/ai/ai'
+ import AitopicNotes from './pages/sem5/Elective/ai/topicwisenotes'
+ import AiTopicQuestions from './pages/sem5/Elective/ai/topicwisequestions'
+ import Aipreviousyearpapers from './pages/sem5/Elective/ai/previousyearpapers'
+ import AiTopicVideos from './pages/sem5/Elective/ai/aiytvideos'
+
+ import Bd from './pages/sem5/Elective/bd/bd'
+ import BdtopicNotes from './pages/sem5/Elective/bd/topicwisenotes'
+ import BdTopicQuestions from './pages/sem5/Elective/bd/topicwisequestions'
+ import Bdpreviousyearpapers from './pages/sem5/Elective/bd/previousyearpapers'
+ import BdTopicVideos from './pages/sem5/Elective/bd/bdytvideos'
+
+ import Ci from './pages/sem5/Elective/ci/ci'
+ import CitopicNotes from './pages/sem5/Elective/ci/topicwisenotes'
+ import CiTopicQuestions from './pages/sem5/Elective/ci/topicwisequestions'
+ import Cipreviousyearpapers from './pages/sem5/Elective/ci/previousyearpapers'
+ import CiTopicVideos from './pages/sem5/Elective/ci/ciytvideos'
+
+ import Ip from './pages/sem5/Elective/ip/ip'
+ import IptopicNotes from './pages/sem5/Elective/ip/topicwisenotes'
+ import IpTopicQuestions from './pages/sem5/Elective/ip/topicwisequestions'
+ import Ippreviousyearpapers from './pages/sem5/Elective/ip/previousyearpapers'
+ import IpTopicVideos from './pages/sem5/Elective/ip/ipytvideos'
+
+ import Dmdw from './pages/sem5/Elective/dmdw/dmdw'
+ import DmdwtopicNotes from './pages/sem5/Elective/dmdw/topicwisenotes'
+ import DmdwTopicQuestions from './pages/sem5/Elective/dmdw/topicwisequestions'
+ import Dmdwpreviousyearpapers from './pages/sem5/Elective/dmdw/previousyearpapers'
+ import DmdwTopicVideos from './pages/sem5/Elective/dmdw/dmdwytvideos'
+
+ import Crypto from './pages/sem5/Elective/crypto/crypto'
+ import CryptotopicNotes from './pages/sem5/cn/topicwisenotes'
+ import CryptoTopicQuestions from './pages/sem5/Elective/crypto/topicwisequestions'
+ import Cryptopreviousyearpapers from './pages/sem5/Elective/crypto/previousyearpapers'
+ import CryptoTopicVideos from './pages/sem5/Elective/crypto/cryptoytvideos'
+
+import Sem7 from './pages/sem7/sem7'
 import Sem8 from './pages/sem8/sem8'
 
 
 import Sem8Sub1 from './pages/sem8_sub1'
 import Error from './pages/error'
+
 
 function App() {
   return (
@@ -373,6 +440,106 @@ function App() {
                 </Route>
                 </Route>
 
+            <Route path="sem5">
+
+              <Route path="" element={<Sem5/>}>
+              <Route path="elective5">
+                <Route path="" element={<Elective5/>}></Route>
+                
+                <Route path="ai" >
+                  <Route path="" element={<Ai/>}></Route>
+                  <Route path="topicwisenotes" element={<AitopicNotes/>}></Route>
+                  <Route path="topicwisequestions" element={<AiTopicQuestions/>}></Route>
+                <Route path="topicwiseyoutubevideos" element={<AiTopicVideos/>}></Route>
+                <Route path="previousyearpapers" element={<Aipreviousyearpapers/>}></Route>
+                  </Route>
+                
+                <Route path="bd">
+                   <Route path="" element={<Bd/>}></Route> 
+                   <Route path="topicwisenotes" element={<BdtopicNotes/>}></Route>
+                  <Route path="topicwisequestions" element={<BdTopicQuestions/>}></Route>
+                <Route path="topicwiseyoutubevideos" element={<BdTopicVideos/>}></Route>
+                <Route path="previousyearpapers" element={<Bdpreviousyearpapers/>}></Route>
+                </Route>
+
+                <Route path="dmdw">
+                  <Route path="" element={<Dmdw/>}></Route>
+                  <Route path="topicwisenotes" element={<DmdwtopicNotes/>}></Route>
+                  <Route path="topicwisequestions" element={<DmdwTopicQuestions/>}></Route>
+                <Route path="topicwiseyoutubevideos" element={<DmdwTopicVideos/>}></Route>
+                <Route path="previousyearpapers" element={<Dmdwpreviousyearpapers/>}></Route>
+                </Route>
+
+                <Route path="ci">
+                  <Route path="" element={<Ci/>}></Route>
+                  <Route path="topicwisenotes" element={<CitopicNotes/>}></Route>
+                  <Route path="topicwisequestions" element={<CiTopicQuestions/>}></Route>
+                <Route path="topicwiseyoutubevideos" element={<CiTopicVideos/>}></Route>
+                <Route path="previousyearpapers" element={<Cipreviousyearpapers/>}></Route>
+                </Route>
+
+                <Route path="ip" >
+                  <Route path="" element={<Ip/>}></Route>
+                  <Route path="topicwisenotes" element={<IptopicNotes/>}></Route>
+                  <Route path="topicwisequestions" element={<IpTopicQuestions/>}></Route>
+                <Route path="topicwiseyoutubevideos" element={<IpTopicVideos/>}></Route>
+                <Route path="previousyearpapers" element={<Ippreviousyearpapers/>}></Route>
+                </Route>
+                <Route path="crypto">
+                  <Route path="" element={<Crypto/>}></Route>
+                  <Route path="topicwisenotes" element={<CryptotopicNotes/>}></Route>
+                  <Route path="topicwisequestions" element={<CryptoTopicQuestions/>}></Route>
+                <Route path="topicwiseyoutubevideos" element={<CryptoTopicVideos/>}></Route>
+                <Route path="previousyearpapers" element={<Cryptopreviousyearpapers/>}></Route>
+                </Route>
+                </Route>
+                </Route>
+
+
+              <Route path="hpc">
+                <Route path="" element={<Hpc/>}></Route>
+                <Route path="topicwisenotes" element={<HpctopicNotes/>}></Route>
+                <Route path="topicwisequestions" element={<HpcTopicQuestions/>}></Route>
+                <Route path="topicwiseyoutubevideos" element={<HpcTopicVideos/>}></Route>
+                <Route path="previousyearpapers" element={<Hpcpreviousyearpapers/>}></Route>
+              </Route>
+
+              <Route path="daa">
+                <Route path="" element={<Daa/>}></Route>
+                <Route path="topicwisenotes" element={<DaaTopicNotes/>}></Route>
+                <Route path="topicwisequestions" element={<DaaTopicQuestions/>}></Route>
+                <Route path="topicwiseyoutubevideos" element={<DaaTopicVideos/>}></Route>
+                <Route path="previousyearpapers" element={<Daapreviousyearpapers/>}></Route>
+              </Route>
+
+
+                <Route path="cn">
+                <Route path="" element={<Cn/>}></Route>
+                <Route path="topicwisenotes" element={<CnTopicNotes/>}></Route>
+                <Route path="topicwisequestions" element={<CnTopicQuestions/>}></Route>
+                <Route path="topicwiseyoutubevideos" element={<CnTopicVideos/>}></Route>
+                <Route path="previousyearpapers" element={<Cnpreviousyearpapers/>}></Route>
+                </Route>
+
+
+                <Route path="se">
+                <Route path="" element={<Se/>}></Route>
+                <Route path="topicwisenotes" element={<SeTopicNotes/>}></Route>
+                <Route path="topicwisequestions" element={<SeTopicQuestions/>}></Route>
+                <Route path="topicwiseyoutubevideos" element={<SeTopicVideos/>}></Route>
+                <Route path="previousyearpapers" element={<Sepreviousyearpapers/>}></Route>
+                </Route>
+
+
+               
+                </Route>   
+
+                {/* <Route path="sem7">
+              <Route path="" element={<Sem7/>}></Route>
+              <Route path="sub1" element={<Sem7Sub1/>}></Route>
+              <Route path="sub2" element={<div>Sub2</div>}></Route>
+             </Route> */}
+
                <Route path="sem8">
               <Route path="" element={<Sem8/>}></Route>
               <Route path="sub1" element={<Sem8Sub1/>}></Route>
@@ -388,3 +555,4 @@ function App() {
 }
 
 export default App;
+
